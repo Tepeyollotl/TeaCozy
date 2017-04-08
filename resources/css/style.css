@@ -1,0 +1,58 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+  text-align: right;
+  margin-left: 845px;
+  margin-right: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*Sizing*/
+
+.container {
+  margin: 0 auto;
+  display: flex;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*Header Section*/
+
+.header {
+  height: 69px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-bottom: 1px solid seashell;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.header li a {
+  color: seashell;
+  opacity: 0.9;
+  margin:0;
+  border:0px;
+}
+
+#logo {
+	height: 50px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
