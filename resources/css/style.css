@@ -176,3 +176,10 @@ li {
 	width: 100%;
 	text-align: center;
 }
+
+/*-------------Footer Section----------------*/
+
+.footer {
+	text-align: left;
+	margin-left: 20px;
+}
