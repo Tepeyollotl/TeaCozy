@@ -123,26 +123,41 @@ li {
 	flex-direction: row;
 }
 
+.ave-tea {
+	margin-right: 25px;
+}
+
+.bizzare-tea {
+	margin-left: 25px;
+}
+
 /*-------------Location Section----------------*/
 
 .locations {
 	height: 500px;
 	width: 100%;
 	background-image: url(/Users/amelgoza/Desktop/Projects/TeaCozy/resources/img/img-locations-background.jpg);
+	background-size: cover;
 }
 
 .row {
 	width 100%
 	height: 700px;
-	border: 1px solid aqua;
 	display: flex;
 	justify-content: space-around;
-	padding-bottom: 135px;
+	padding-top: 0px;
+	height: 65%;
+	margin-top: 0px;
 	
 }
 
 .locations h2 {
-	
+	height: 50px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 0px;
+	padding-bottom: 14px;
+	padding-top: 55px;
 }
 
 .square {
@@ -152,4 +167,12 @@ li {
 	opacity: 1;
 	text-align: center;
 	align-items: center;
+}
+
+/*-------------Location Section----------------*/
+
+.contact {
+	height: 200px;
+	width: 100%;
+	text-align: center;
 }
