@@ -9,15 +9,18 @@ body {
 }
 
 
-/*Header + Nav Section*/
+/*--------------------Header + Nav Section------------------*/
 
 .header {
   height: 69px;
+  width: 100%;
   margin-left: 0px;
   margin-right: 0px;
   border-bottom: 1px solid seashell;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  position: fixed;
+  background-color: black;
 }
 
 .header li {
@@ -48,7 +51,7 @@ li {
 	padding-top: 10px;
 }
 
-/*Jumbotron Section*/
+/*--------------Jumbotron Section-------------------*/
 
 .jumbotron {
 	height: 700px;
@@ -70,7 +73,7 @@ li {
 	margin: 0 auto;
 }
 
-/*Menu Options Section*/
+/*-------------Menu Options Section---------------*/
 
 .options {
 	width: 1000px;
@@ -118,4 +121,35 @@ li {
 	text-align: center;
 	margin-right: 30px;
 	flex-direction: row;
+}
+
+/*-------------Location Section----------------*/
+
+.locations {
+	height: 500px;
+	width: 100%;
+	background-image: url(/Users/amelgoza/Desktop/Projects/TeaCozy/resources/img/img-locations-background.jpg);
+}
+
+.row {
+	width 100%
+	height: 700px;
+	border: 1px solid aqua;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 135px;
+	
+}
+
+.locations h2 {
+	
+}
+
+.square {
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	align-items: center;
 }
