@@ -56,7 +56,7 @@ li {
 .jumbotron {
 	height: 700px;
 	max-width: 100%;
-	background-image: url(/Users/amelgoza/Desktop/Projects/TeaCozy/resources/img/img-mission-background.jpg);
+	background-image: url(../img/img-mission-background.jpg);
 	background-size: cover;
 	margin: 0 auto;
 	display: flex;
@@ -136,7 +136,7 @@ li {
 .locations {
 	height: 500px;
 	width: 100%;
-	background-image: url(/Users/amelgoza/Desktop/Projects/TeaCozy/resources/img/img-locations-background.jpg);
+	background-image: url(../img/img-locations-background.jpg);
 	background-size: cover;
 }
 
